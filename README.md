@@ -141,6 +141,8 @@ Check `GET /readyz` to confirm your LLM key was picked up — if the `llm` check
 
 See the full [getting started guide](https://github.com/smaramwbc/statewave-docs/blob/main/getting-started.md) for step-by-step setup including environment configuration.
 
+Prefer a hosted instance? [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/statewave-agent-memory) deploys the API (`statewavedev/statewave`), the admin console (`statewavedev/statewave-admin`) and pgvector Postgres on Railway, with the API key, admin password and other secrets generated per deployment. It starts in the same demo mode; add the LiteLLM variables above to the API service for LLM-backed behaviour.
+
 ## API
 
 | Method | Path | Description |
